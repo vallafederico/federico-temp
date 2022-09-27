@@ -1,8 +1,8 @@
 /* ------------------------------  Variables */
 :root {
   /* Colors */
-  --color-black: #111111;
-  --color-white: #fefefe;
+  --color-black: #101010;
+  --color-white: #dbdbdb;
   /* Spaces */
   --space-s: 0.5rem;
   --space-m: 1rem;
@@ -19,15 +19,39 @@
   font-display: swap;
 }
 
-/* ---  Global */
-* {
+@font-face {
   font-family: "Sohne-web";
-  font-size: 14px;
+  src: url("/fonts/Sohne-Halbfett-webh.woff2") format("woff2"),
+    url("/fonts/Sohne-Halbfett-webh.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
 }
+
+@font-face {
+  font-family: "Black-web";
+  src: url("/fonts/BlackMamba-Venom.woff2") format("woff2"),
+    url("/fonts/BlackMamba-Venom.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---  Global */
 
 body {
   background: var(--color-black);
   color: var(--color-white);
+
+  font-family: "Sohne-web";
+  font-size: 12px;
+}
+
+.ft-alt {
+  font-family: "Black-web";
+}
+.ft-bas {
+  font-family: "Sohne-web";
 }
 
 /* ------------------------------  Webgl */
@@ -50,7 +74,7 @@ main {
 }
 
 .Section {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 
   /* margin: var(--space-l) var(--space-l); */
 
