@@ -1,0 +1,29 @@
+---
+import "../style/main.css";
+import "../style/an.css";
+const { title, route } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <div data-wrap>
+      <main data-route={route} class="Main">
+        <slot />
+      </main>
+    </div>
+
+    <!-- Webgl -->
+    <canvas data-gl="c"></canvas>
+    <!-- <div data-gl="c"></div> -->
+    <script type="module" src={(await import("../js/app.js?url")).default}
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+/* ------------------------------  Variables */
+:root {
+  /* Colors */
+  --color-p: #f00;
+  --color-s: #f00;
+  /* Timings & Easings */
+  --space-s: 0.5rem;
+  --space-m: 1rem;
+  --space-l: 2rem;
+}
+
+/* ------------------------------  ... */
