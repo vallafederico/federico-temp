@@ -37,6 +37,15 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Gascogne";
+  src: url("/fonts/Gascogne.woff2") format("woff2"),
+    url("/fonts/Gascogne.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* ---  Global */
 
 body {
@@ -52,6 +61,18 @@ body {
 }
 .ft-bas {
   font-family: "Sohne-web";
+}
+
+.f-main {
+  font-family: "Sohne-web";
+}
+
+.f-disp {
+  font-family: "Black-web";
+}
+
+.f-gs {
+  font-family: "Gascogne";
 }
 
 /* ------------------------------  Webgl */
