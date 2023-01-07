@@ -75,6 +75,12 @@ body {
   font-family: "Gascogne";
 }
 
+html,
+body,
+.FULLPAGEWRAPPER {
+  overscroll-behavior: none;
+}
+
 /* ------------------------------  Webgl */
 [data-gl="c"] {
   position: fixed;
