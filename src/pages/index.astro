@@ -10,48 +10,38 @@ const mailTo = "mailto:federico@federic.ooo";
   <main
     class="flex flex-col justify-between md:h-[100vh] h-[100svh] touch-none"
   >
-    <div>
-      <!-- Nav -->
-      <Section className="h-full text-[10px]">
-        <div class="c uppercase md:flex justify-between">
-          <h1 class="">Federico Valla</h1>
-          <div class="flex justify-between md:w-1/3">
-            <p>temporary website</p>
-            <p>Available from November 2022</p>
-            <a class="font-bold" target="_blank" href="mailto:hello@federic.ooo"
-              >email</a
-            >
-          </div>
-        </div>
-      </Section>
-
-      <!-- Name -->
-      <Section className="h-full">
-        <div class="c uppercase flex justify-center my-[10vh]">
-          <figure class="text-center text-[10vw]">
-            FED<span class="ft-alt">E</span>RICOOO
-          </figure>
-        </div>
-      </Section>
-    </div>
-
-    <!-- Cta -->
-    <Section className="h-full">
-      <div class="c uppercase flex flex-col items-center">
-        <div class="flex w-[50vw] justify-between font-bold mb-[1em]">
-          <a target="_blank" href="mailto:hello@federic.ooo">Email</a>
-          <a target="_blank" href="https://www.linkedin.com/in/federicovalla/"
-            >Linkedin</a
-          >
-          <a target="_blank" href="https://twitter.com/fdcooo">Twitter</a>
-        </div>
-        <h2
-          class="md:text-[1.6vw] text-[5vw] max-w-[60ch] text-center leading-[1.2em]"
+    <Section>
+      <div class="c flex justify-between">
+        <h1 class="md:w-1/3">FEDERICO VALLA</h1>
+        <p class="hidden md:block font-bold w-1/2 text-center">
+          TEMPORARY WEBSITE
+        </p>
+        <p class="md:w-1/3 text-right">👀</p>
+      </div>
+    </Section>
+    <Section>
+      <div
+        class="c flex flex-col items-center md:text-[6vmax] text-[8vmin] leading-[.9em] text-center"
+      >
+        <h3 class="max-w-[25ch]">
+          <span class="font-bold">INDEPENDENT</span>
+          <br />
+          <span class="f-gs"> CREATIVE</span> DIRECTOR <br /> AND DEVELOPER WORKING
+          WITH AG<span class="ft-alt">E</span>NCIES <br /> AND BRANDS
+        </h3>
+        <!-- Intermezzo -->
+        <p class="text-[10px] leading-[1.4em] max-w-[100ch]">
+          HAVE A PROJECT IN MIND? FEEL FREE TO REACH OUT AT THE EMAIL BELOW. I
+          ALSO WORK WITH SOME AMAZING AGENCIES AND FREELANCER TEAMS I CAN
+          INTRODUCE YOU TO
+        </p>
+        <!-- Email -->
+        <a href={mailTo} class="max-w-[25ch] hover:opacity-50"
+          >(HELLO@FEDERIC.OOO)</a
         >
-          <p class="max-w-[25ch]">
-            ITALY, WORLDWIDE <br /> ©2022
-          </p>
-        </h2>
+        <p class="max-w-[25ch]">
+          ITALY, WORLDWIDE <br /> ©2022
+        </p>
       </div>
     </Section>
     <Section>
