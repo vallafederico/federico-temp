@@ -1,0 +1,34 @@
+---
+import Section from "../Section.astro";
+import ELink from "../ELink.astro";
+import { mailto, links } from "../content";
+---
+
+<section>
+    <div class="c flex justify-between uppercase">
+        <ul class="baseline">
+            {
+                links.social.map((item) => (
+                    <li>
+                        <ELink href={item.url}>{item.title}</ELink>
+                    </li>
+                ))
+            }
+        </ul>
+        <ul class="text-right flex flex-col justify-end">
+            {
+                links.code.map((item) => (
+                    <li>
+                        <ELink href={item.url}>{item.title}</ELink>
+                    </li>
+                ))
+            }
+        </ul>
+
+        <!-- Bottom LIne -->
+    </div>
+    <div class="c flex justify-between pt-[1em]">
+        <h2 class="font-bold">© HTTPS://FEDERIC.OOO</h2>
+        <a class="hover:opacity-50" href={mailto}> EMAIL</a>
+    </div>
+</section>

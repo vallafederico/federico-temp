@@ -1,0 +1,19 @@
+---
+import Nav from "../Nav.astro";
+import WorkList from "../homepage/WorkList.astro";
+import LargeList from "./LargeList.astro";
+import MainText from "../homepage/MainText.astro";
+import HomeLinks from "../homepage/HomeLinks.astro";
+
+const mailTo = "mailto:federico@federic.ooo";
+---
+
+<div
+    class="flex flex-col justify-between md:h-[100vh] h-[100svh] touch-none py-[1em]"
+>
+    <!-- <Nav /> -->
+    <LargeList />
+    <MainText />
+    <!-- <WorkList /> -->
+    <HomeLinks />
+</div>

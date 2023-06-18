@@ -1,0 +1,62 @@
+---
+import { work } from "../content.js";
+---
+
+<section class="px-[2rem] py-[.5rem]">
+    <!-- Nav -->
+    <div class="flex gap-[1rem] pb-[1rem]">
+        <div class="w-1/2 flex justify-end md:justify-start font-bold">
+            <h1>FEDERICO VALLA</h1>
+        </div>
+        <div class="w-1/2 flex justify-between">
+            <a href="http://">TEMPORARY WEBSITE</a>
+            <p>👀</p>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <div class="flex gap-[1rem] pb-[.4rem]">
+        <div class="w-1/2 flex justify-end font-bold">
+            <p>SELECTED WORKS</p>
+        </div>
+        <div class="w-1/2 flex justify-end f-gs">
+            <p>( W/ )</p>
+        </div>
+    </div>
+    {
+        work.map((item) => {
+            return (
+                <div class="flex gap-[1rem] py-[.1rem]">
+                    <a
+                        href={item.url}
+                        target="_blank"
+                        class="w-1/2 flex justify-between hover:opacity-50"
+                    >
+                        <p>{item.date}</p>
+
+                        <h3 class="uppercase ">{item.title}</h3>
+                    </a>
+
+                    <div class="w-1/2 flex md:justify-between justify-end">
+                        <a
+                            href={item.url}
+                            target="_blank"
+                            class=" hover:opacity-50 hidden md:block"
+                        >
+                            {item.url}
+                        </a>
+                        {item.agency && (
+                            <a
+                                target="_blank"
+                                class="hover:opacity-50 "
+                                href={item.agencyUrl}
+                            >
+                                ( w/ {item.agency} )
+                            </a>
+                        )}
+                    </div>
+                </div>
+            );
+        })
+    }
+</section>
