@@ -14,8 +14,8 @@ const { title, route } = Astro.props;
     <title>{title}</title>
   </head>
   <body>
-    <div data-wrap>
-      <main data-route={route} class="Main">
+    <div data-wrap data-taxi class="f-main text-xs">
+      <main data-route data-taxi-view class="Main">
         <slot />
       </main>
     </div>
