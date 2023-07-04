@@ -19,17 +19,17 @@ export const work = [
     agencyUrl: "https://www.gigadesignstudio.com/",
     date: "2023",
   },
+  {
+    title: "Filippo Ruffini",
+    url: "https://filipporuffini.com/",
+    agency: "@iljavaneck",
+    agencyUrl: "https://www.iljavaneck.com/",
+    date: "2023",
+  },
   // {
   //   title: "Gabriel Contassot",
   //   url: "gabrielcontassot.com/",
   //   // agency: "gigadesignstudio",
-  //   agencyUrl: "https://www.gigadesignstudio.com/",
-  //   date: "2023",
-  // },
-  // {
-  //   title: "Filippo Ruffini",
-  //   url: "filipporuffini.com/",
-  //   agency: "@IlyaVH",
   //   agencyUrl: "https://www.gigadesignstudio.com/",
   //   date: "2023",
   // },
@@ -73,6 +73,11 @@ export const links = {
       ...defaults,
       title: "Savee",
       url: base + "savee",
+    },
+    {
+      ...defaults,
+      title: "Cosmos",
+      url: base + "cosmos",
     },
     {
       ...defaults,
