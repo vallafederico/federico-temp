@@ -33,11 +33,16 @@ export const work = [
     agencyUrl: "https://itsoffbrand.com/",
     date: "2023",
   },
+  {
+    title: "Thecodeflow.co",
+    url: "https://thecodeflow.co/",
+    // agency: "gigadesignstudio",
+    // agencyUrl: "https://www.gigadesignstudio.com/",
+    date: "2023",
+  },
   // {
   //   title: "Gabriel Contassot",
-  //   url: "gabrielcontassot.com/",
-  //   // agency: "gigadesignstudio",
-  //   agencyUrl: "https://www.gigadesignstudio.com/",
+  //   url: "https://gabrielcontassot.com/",
   //   date: "2023",
   // },
 ];
