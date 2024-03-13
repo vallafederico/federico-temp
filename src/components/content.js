@@ -36,8 +36,6 @@ export const work = [
   {
     title: "Thecodeflow.co",
     url: "https://thecodeflow.co/",
-    // agency: "gigadesignstudio",
-    // agencyUrl: "https://www.gigadesignstudio.com/",
     date: "2023",
   },
   {
