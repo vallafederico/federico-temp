@@ -40,11 +40,11 @@ export const work = [
     // agencyUrl: "https://www.gigadesignstudio.com/",
     date: "2023",
   },
-  // {
-  //   title: "Gabriel Contassot",
-  //   url: "https://gabrielcontassot.com/",
-  //   date: "2023",
-  // },
+  {
+    title: "Gabriel Contassot",
+    url: "https://gabrielcontassot.com/",
+    date: "2023",
+  },
 ];
 
 // ------ LINKS
