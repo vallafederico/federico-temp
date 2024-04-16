@@ -36,12 +36,12 @@ export const work = [
   {
     title: "Thecodeflow.co",
     url: "https://thecodeflow.co/",
-    date: "2023",
+    date: "2024",
   },
   {
     title: "Gabriel Contassot",
     url: "https://gabrielcontassot.com/",
-    date: "2023",
+    date: "2024",
   },
 ];
 
