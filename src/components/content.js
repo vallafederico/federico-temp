@@ -39,7 +39,7 @@ export const work = [
     date: "2024",
   },
   {
-    title: "Gabriel Contassot",
+    title: "Gab Contassot",
     url: "https://gabrielcontassot.com/",
     date: "2024",
   },
@@ -53,17 +53,17 @@ const defaults = {
 
 export const links = {
   social: [
-    // {
-    //   ...defaults,
-    //   title: "Instagram",
-    //   url: base + "instagram",
-    //   hidden: true,
-    // },
-    // {
-    //   ...defaults,
-    //   title: "Awwwards",
-    //   url: base + "awwwards",
-    // },
+    {
+      ...defaults,
+      title: "Instagram",
+      url: base + "instagram",
+      hidden: true,
+    },
+    {
+      ...defaults,
+      title: "Awwwards",
+      url: base + "awwwards",
+    },
     {
       ...defaults,
       title: "Twitter",
