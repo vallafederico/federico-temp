@@ -1,5 +1,5 @@
 export const redirects = {
-  "/s/twitter": "https://twitter.com/fdrc_o",
+  "/s/twitter": "https://twitter.com/ffmfedd",
   "/s/instagram": "https://www.instagram.com/ffmfed/",
   "/s/linkedin": "https://www.linkedin.com/in/federicovalla/",
   "/s/behance": "https://www.behance.net/FedericoValla",
