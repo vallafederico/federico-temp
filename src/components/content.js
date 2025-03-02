@@ -43,6 +43,11 @@ export const work = [
     url: "https://gabrielcontassot.com/",
     date: "2024",
   },
+  {
+    title: "Siena Film Foundation",
+    url: "https://www.siena.film/",
+    date: "2025",
+  },
 ];
 
 // ------ LINKS
