@@ -50,6 +50,11 @@ export const work = [
     agency: "niccolomiranda",
     agencyUrl: "https://niccolomiranda.com/",
   },
+  {
+    title: "Visual Business",
+    url: "https://www.vvisual.biz/",
+    date: "2025",
+  },
 ];
 
 // ------ LINKS
