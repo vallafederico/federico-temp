@@ -44,7 +44,7 @@ export const work = [
     date: "2024",
   },
   {
-    title: "Siena Film Foundation",
+    title: "Siena Film Fnd.",
     url: "https://www.siena.film/",
     date: "2025",
     agency: "niccolomiranda",
