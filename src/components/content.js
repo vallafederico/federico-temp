@@ -55,6 +55,13 @@ export const work = [
     url: "https://www.vvisual.biz/",
     date: "2025",
   },
+  {
+    title: "DDD Palermo",
+    url: "https://palermo.ddd.live/",
+    date: "2025",
+    agency: "Basilico",
+    agencyUrl: "https://basili.co/",
+  },
 ];
 
 // ------ LINKS
