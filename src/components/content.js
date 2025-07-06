@@ -62,6 +62,13 @@ export const work = [
     agency: "Basilico",
     agencyUrl: "https://basili.co/",
   },
+  {
+    title: "Aether:1",
+    url: "https://www.aether1.ai/",
+    date: "2025",
+    agency: "Offbrand.",
+    agencyUrl: "https://itsoffbrand.com/",
+  },
 ];
 
 // ------ LINKS
