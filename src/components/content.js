@@ -29,7 +29,7 @@ export const work = [
   {
     title: "Webflow.com",
     url: "https://webflow.com/",
-    agency: "itsoffbrand",
+    agency: "OFF+BRAND.",
     agencyUrl: "https://itsoffbrand.com/",
     date: "2023",
   },
@@ -66,7 +66,7 @@ export const work = [
     title: "Aether:1",
     url: "https://www.aether1.ai/",
     date: "2025",
-    agency: "Offbrand.",
+    agency: "OFF+BRAND.",
     agencyUrl: "https://itsoffbrand.com/",
   },
 ];
